@@ -1,12 +1,18 @@
 import SwiftUI
-import PhotosUI
 import AVKit
 
 struct JournalEntryView: View {
     @State private var entries: [JournalEntry] = []
     @State private var showingImagePicker = false
+    @State private var showingVideoPicker = false
     @State private var newEntryText: String = ""
-    @State private var selectedMediaURL: URL?
+    @State private var selectedImage: UIImage?
+    @State private var selectedVideoURL: URL?
+    @State private var mediaType: MediaType = .none
+
+    enum MediaType {
+        case none, photo, video
+    }
 
     var body: some View {
         NavigationView {
@@ -41,14 +47,36 @@ struct JournalEntryView: View {
                         .frame(height: 100)
                         .padding()
 
-                    Button(action: {
-                        showingImagePicker = true
-                    }) {
-                        Text("Add Photo/Video")
+                    HStack {
+                        Button(action: {
+                            mediaType = .photo
+                            showingImagePicker = true
+                        }) {
+                            HStack {
+                                Image(systemName: "photo")
+                                Text("Add Photo")
+                            }
+                            .frame(maxWidth: .infinity)
                             .padding()
                             .background(Color.blue)
                             .foregroundColor(.white)
                             .cornerRadius(10)
+                        }
+
+                        Button(action: {
+                            mediaType = .video
+                            showingVideoPicker = true
+                        }) {
+                            HStack {
+                                Image(systemName: "video")
+                                Text("Add Video")
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                        }
                     }
                     .padding()
 
@@ -64,16 +92,59 @@ struct JournalEntryView: View {
             }
             .navigationTitle("Journal")
             .sheet(isPresented: $showingImagePicker, content: {
-                ImagePicker(mediaURL: $selectedMediaURL)
+                ImagePicker(selectedImage: $selectedImage, sourceType: .photoLibrary)
+            })
+            .sheet(isPresented: $showingVideoPicker, content: {
+                VideoPicker(selectedVideoURL: $selectedVideoURL, sourceType: .photoLibrary)
             })
         }
     }
 
     private func addEntry() {
-        let newEntry = JournalEntry(date: Date(), text: newEntryText, media: selectedMediaURL)
+        var mediaURL: URL? = nil
+        if let selectedImage = selectedImage {
+            mediaURL = saveImageLocally(image: selectedImage)
+            self.selectedImage = nil
+        } else if let selectedVideoURL = selectedVideoURL {
+            mediaURL = saveMediaLocally(url: selectedVideoURL)
+            self.selectedVideoURL = nil
+        }
+        let newEntry = JournalEntry(date: Date(), text: newEntryText, media: mediaURL)
         entries.append(newEntry)
         newEntryText = ""
-        selectedMediaURL = nil
+    }
+
+    private func saveImageLocally(image: UIImage) -> URL? {
+        let fileManager = FileManager.default
+        let documentsURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
+        let imageURL = documentsURL.appendingPathComponent(UUID().uuidString + ".jpg")
+
+        guard let data = image.jpegData(compressionQuality: 1.0) else { return nil }
+        do {
+            try data.write(to: imageURL)
+            return imageURL
+        } catch {
+            print("Error saving image: \(error)")
+            return nil
+        }
+    }
+
+    private func saveMediaLocally(url: URL?) -> URL? {
+        guard let url = url else { return nil }
+        let fileManager = FileManager.default
+        let documentsURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
+        let destinationURL = documentsURL.appendingPathComponent(url.lastPathComponent)
+
+        do {
+            if fileManager.fileExists(atPath: destinationURL.path) {
+                try fileManager.removeItem(at: destinationURL)
+            }
+            try fileManager.copyItem(at: url, to: destinationURL)
+            return destinationURL
+        } catch {
+            print("Error saving media: \(error)")
+            return nil
+        }
     }
 }
 
