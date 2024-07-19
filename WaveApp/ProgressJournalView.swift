@@ -2,9 +2,7 @@ import SwiftUI
 
 struct ProgressJournalView: View {
     var body: some View {
-        Text("Progress Journal")
-            .font(.largeTitle)
-            .padding()
+        JournalEntryView()
     }
 }
 

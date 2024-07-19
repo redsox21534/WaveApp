@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB3A06252C4A13FD009875B7 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06242C4A13FD009875B7 /* JournalEntry.swift */; };
+		DB3A06272C4A1435009875B7 /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06262C4A1435009875B7 /* JournalEntryView.swift */; };
+		DB3A06292C4A145F009875B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06282C4A145F009875B7 /* ImagePicker.swift */; };
 		DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FCF82C49E801001063E1 /* WaveAppApp.swift */; };
 		DB73FCFB2C49E801001063E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FCFA2C49E801001063E1 /* ContentView.swift */; };
 		DB73FCFD2C49E803001063E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB73FCFC2C49E803001063E1 /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB3A06242C4A13FD009875B7 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		DB3A06262C4A1435009875B7 /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		DB3A06282C4A145F009875B7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DB73FCF52C49E801001063E1 /* WaveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB73FCF82C49E801001063E1 /* WaveAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppApp.swift; sourceTree = "<group>"; };
 		DB73FCFA2C49E801001063E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +119,9 @@
 				DB73FD2A2C49EE57001063E1 /* ProfileView.swift */,
 				DB73FCFE2C49E803001063E1 /* Preview Content */,
 				DB73FD242C49EC1B001063E1 /* ProgressJournalView.swift */,
+				DB3A06242C4A13FD009875B7 /* JournalEntry.swift */,
+				DB3A06262C4A1435009875B7 /* JournalEntryView.swift */,
+				DB3A06282C4A145F009875B7 /* ImagePicker.swift */,
 			);
 			path = WaveApp;
 			sourceTree = "<group>";
@@ -274,9 +283,12 @@
 			files = (
 				DB73FCFB2C49E801001063E1 /* ContentView.swift in Sources */,
 				DB73FD272C49EC8C001063E1 /* WavesView.swift in Sources */,
+				DB3A06252C4A13FD009875B7 /* JournalEntry.swift in Sources */,
 				DB73FD232C49EBAB001063E1 /* MainView.swift in Sources */,
 				DB73FD292C49EE33001063E1 /* ConnectView.swift in Sources */,
 				DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */,
+				DB3A06272C4A1435009875B7 /* JournalEntryView.swift in Sources */,
+				DB3A06292C4A145F009875B7 /* ImagePicker.swift in Sources */,
 				DB73FD2B2C49EE57001063E1 /* ProfileView.swift in Sources */,
 				DB73FD252C49EC1B001063E1 /* ProgressJournalView.swift in Sources */,
 			);
