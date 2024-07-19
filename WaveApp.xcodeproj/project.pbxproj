@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FCF82C49E801001063E1 /* WaveAppApp.swift */; };
+		DB73FCFB2C49E801001063E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FCFA2C49E801001063E1 /* ContentView.swift */; };
+		DB73FCFD2C49E803001063E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB73FCFC2C49E803001063E1 /* Assets.xcassets */; };
+		DB73FD002C49E803001063E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB73FCFF2C49E803001063E1 /* Preview Assets.xcassets */; };
+		DB73FD0A2C49E803001063E1 /* WaveAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD092C49E803001063E1 /* WaveAppTests.swift */; };
+		DB73FD142C49E803001063E1 /* WaveAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD132C49E803001063E1 /* WaveAppUITests.swift */; };
+		DB73FD162C49E803001063E1 /* WaveAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD152C49E803001063E1 /* WaveAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB73FD062C49E803001063E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB73FCED2C49E800001063E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB73FCF42C49E800001063E1;
+			remoteInfo = WaveApp;
+		};
+		DB73FD102C49E803001063E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB73FCED2C49E800001063E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB73FCF42C49E800001063E1;
+			remoteInfo = WaveApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB73FCF52C49E801001063E1 /* WaveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB73FCF82C49E801001063E1 /* WaveAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppApp.swift; sourceTree = "<group>"; };
+		DB73FCFA2C49E801001063E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB73FCFC2C49E803001063E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB73FCFF2C49E803001063E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB73FD052C49E803001063E1 /* WaveAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB73FD092C49E803001063E1 /* WaveAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppTests.swift; sourceTree = "<group>"; };
+		DB73FD0F2C49E803001063E1 /* WaveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB73FD132C49E803001063E1 /* WaveAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppUITests.swift; sourceTree = "<group>"; };
+		DB73FD152C49E803001063E1 /* WaveAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB73FCF22C49E800001063E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB73FD022C49E803001063E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB73FD0C2C49E803001063E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB73FCEC2C49E800001063E1 = {
+			isa = PBXGroup;
+			children = (
+				DB73FCF72C49E801001063E1 /* WaveApp */,
+				DB73FD082C49E803001063E1 /* WaveAppTests */,
+				DB73FD122C49E803001063E1 /* WaveAppUITests */,
+				DB73FCF62C49E801001063E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB73FCF62C49E801001063E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB73FCF52C49E801001063E1 /* WaveApp.app */,
+				DB73FD052C49E803001063E1 /* WaveAppTests.xctest */,
+				DB73FD0F2C49E803001063E1 /* WaveAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB73FCF72C49E801001063E1 /* WaveApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB73FCF82C49E801001063E1 /* WaveAppApp.swift */,
+				DB73FCFA2C49E801001063E1 /* ContentView.swift */,
+				DB73FCFC2C49E803001063E1 /* Assets.xcassets */,
+				DB73FCFE2C49E803001063E1 /* Preview Content */,
+			);
+			path = WaveApp;
+			sourceTree = "<group>";
+		};
+		DB73FCFE2C49E803001063E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB73FCFF2C49E803001063E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB73FD082C49E803001063E1 /* WaveAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB73FD092C49E803001063E1 /* WaveAppTests.swift */,
+			);
+			path = WaveAppTests;
+			sourceTree = "<group>";
+		};
+		DB73FD122C49E803001063E1 /* WaveAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB73FD132C49E803001063E1 /* WaveAppUITests.swift */,
+				DB73FD152C49E803001063E1 /* WaveAppUITestsLaunchTests.swift */,
+			);
+			path = WaveAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB73FCF42C49E800001063E1 /* WaveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB73FD192C49E803001063E1 /* Build configuration list for PBXNativeTarget "WaveApp" */;
+			buildPhases = (
+				DB73FCF12C49E800001063E1 /* Sources */,
+				DB73FCF22C49E800001063E1 /* Frameworks */,
+				DB73FCF32C49E800001063E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveApp;
+			productName = WaveApp;
+			productReference = DB73FCF52C49E801001063E1 /* WaveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB73FD042C49E803001063E1 /* WaveAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB73FD1C2C49E803001063E1 /* Build configuration list for PBXNativeTarget "WaveAppTests" */;
+			buildPhases = (
+				DB73FD012C49E803001063E1 /* Sources */,
+				DB73FD022C49E803001063E1 /* Frameworks */,
+				DB73FD032C49E803001063E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB73FD072C49E803001063E1 /* PBXTargetDependency */,
+			);
+			name = WaveAppTests;
+			productName = WaveAppTests;
+			productReference = DB73FD052C49E803001063E1 /* WaveAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB73FD0E2C49E803001063E1 /* WaveAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB73FD1F2C49E803001063E1 /* Build configuration list for PBXNativeTarget "WaveAppUITests" */;
+			buildPhases = (
+				DB73FD0B2C49E803001063E1 /* Sources */,
+				DB73FD0C2C49E803001063E1 /* Frameworks */,
+				DB73FD0D2C49E803001063E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB73FD112C49E803001063E1 /* PBXTargetDependency */,
+			);
+			name = WaveAppUITests;
+			productName = WaveAppUITests;
+			productReference = DB73FD0F2C49E803001063E1 /* WaveAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB73FCED2C49E800001063E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DB73FCF42C49E800001063E1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DB73FD042C49E803001063E1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DB73FCF42C49E800001063E1;
+					};
+					DB73FD0E2C49E803001063E1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DB73FCF42C49E800001063E1;
+					};
+				};
+			};
+			buildConfigurationList = DB73FCF02C49E800001063E1 /* Build configuration list for PBXProject "WaveApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB73FCEC2C49E800001063E1;
+			productRefGroup = DB73FCF62C49E801001063E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB73FCF42C49E800001063E1 /* WaveApp */,
+				DB73FD042C49E803001063E1 /* WaveAppTests */,
+				DB73FD0E2C49E803001063E1 /* WaveAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB73FCF32C49E800001063E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB73FD002C49E803001063E1 /* Preview Assets.xcassets in Resources */,
+				DB73FCFD2C49E803001063E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB73FD032C49E803001063E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB73FD0D2C49E803001063E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB73FCF12C49E800001063E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB73FCFB2C49E801001063E1 /* ContentView.swift in Sources */,
+				DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB73FD012C49E803001063E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB73FD0A2C49E803001063E1 /* WaveAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB73FD0B2C49E803001063E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB73FD142C49E803001063E1 /* WaveAppUITests.swift in Sources */,
+				DB73FD162C49E803001063E1 /* WaveAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB73FD072C49E803001063E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB73FCF42C49E800001063E1 /* WaveApp */;
+			targetProxy = DB73FD062C49E803001063E1 /* PBXContainerItemProxy */;
+		};
+		DB73FD112C49E803001063E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB73FCF42C49E800001063E1 /* WaveApp */;
+			targetProxy = DB73FD102C49E803001063E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB73FD172C49E803001063E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB73FD182C49E803001063E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB73FD1A2C49E803001063E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaveApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SKJ4AJWT46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiegoHsu.Wave.WaveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB73FD1B2C49E803001063E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaveApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SKJ4AJWT46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiegoHsu.Wave.WaveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB73FD1D2C49E803001063E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKJ4AJWT46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiegoHsu.Wave.WaveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaveApp";
+			};
+			name = Debug;
+		};
+		DB73FD1E2C49E803001063E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKJ4AJWT46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiegoHsu.Wave.WaveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaveApp";
+			};
+			name = Release;
+		};
+		DB73FD202C49E803001063E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKJ4AJWT46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiegoHsu.Wave.WaveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveApp;
+			};
+			name = Debug;
+		};
+		DB73FD212C49E803001063E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKJ4AJWT46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiegoHsu.Wave.WaveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB73FCF02C49E800001063E1 /* Build configuration list for PBXProject "WaveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB73FD172C49E803001063E1 /* Debug */,
+				DB73FD182C49E803001063E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB73FD192C49E803001063E1 /* Build configuration list for PBXNativeTarget "WaveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB73FD1A2C49E803001063E1 /* Debug */,
+				DB73FD1B2C49E803001063E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB73FD1C2C49E803001063E1 /* Build configuration list for PBXNativeTarget "WaveAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB73FD1D2C49E803001063E1 /* Debug */,
+				DB73FD1E2C49E803001063E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB73FD1F2C49E803001063E1 /* Build configuration list for PBXNativeTarget "WaveAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB73FD202C49E803001063E1 /* Debug */,
+				DB73FD212C49E803001063E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB73FCED2C49E800001063E1 /* Project object */;
+}
