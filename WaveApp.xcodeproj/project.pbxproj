@@ -14,6 +14,11 @@
 		DB73FD0A2C49E803001063E1 /* WaveAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD092C49E803001063E1 /* WaveAppTests.swift */; };
 		DB73FD142C49E803001063E1 /* WaveAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD132C49E803001063E1 /* WaveAppUITests.swift */; };
 		DB73FD162C49E803001063E1 /* WaveAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD152C49E803001063E1 /* WaveAppUITestsLaunchTests.swift */; };
+		DB73FD232C49EBAB001063E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD222C49EBAB001063E1 /* MainView.swift */; };
+		DB73FD252C49EC1B001063E1 /* ProgressJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD242C49EC1B001063E1 /* ProgressJournalView.swift */; };
+		DB73FD272C49EC8C001063E1 /* WavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD262C49EC8C001063E1 /* WavesView.swift */; };
+		DB73FD292C49EE33001063E1 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD282C49EE33001063E1 /* ConnectView.swift */; };
+		DB73FD2B2C49EE57001063E1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD2A2C49EE57001063E1 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		DB73FD0F2C49E803001063E1 /* WaveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB73FD132C49E803001063E1 /* WaveAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppUITests.swift; sourceTree = "<group>"; };
 		DB73FD152C49E803001063E1 /* WaveAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB73FD222C49EBAB001063E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DB73FD242C49EC1B001063E1 /* ProgressJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressJournalView.swift; sourceTree = "<group>"; };
+		DB73FD262C49EC8C001063E1 /* WavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavesView.swift; sourceTree = "<group>"; };
+		DB73FD282C49EE33001063E1 /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		DB73FD2A2C49EE57001063E1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				DB73FCF82C49E801001063E1 /* WaveAppApp.swift */,
+				DB73FD222C49EBAB001063E1 /* MainView.swift */,
 				DB73FCFA2C49E801001063E1 /* ContentView.swift */,
+				DB73FD262C49EC8C001063E1 /* WavesView.swift */,
 				DB73FCFC2C49E803001063E1 /* Assets.xcassets */,
+				DB73FD282C49EE33001063E1 /* ConnectView.swift */,
+				DB73FD2A2C49EE57001063E1 /* ProfileView.swift */,
 				DB73FCFE2C49E803001063E1 /* Preview Content */,
+				DB73FD242C49EC1B001063E1 /* ProgressJournalView.swift */,
 			);
 			path = WaveApp;
 			sourceTree = "<group>";
@@ -258,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB73FCFB2C49E801001063E1 /* ContentView.swift in Sources */,
+				DB73FD272C49EC8C001063E1 /* WavesView.swift in Sources */,
+				DB73FD232C49EBAB001063E1 /* MainView.swift in Sources */,
+				DB73FD292C49EE33001063E1 /* ConnectView.swift in Sources */,
 				DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */,
+				DB73FD2B2C49EE57001063E1 /* ProfileView.swift in Sources */,
+				DB73FD252C49EC1B001063E1 /* ProgressJournalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
