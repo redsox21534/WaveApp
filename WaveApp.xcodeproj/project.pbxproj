@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DB3A06252C4A13FD009875B7 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06242C4A13FD009875B7 /* JournalEntry.swift */; };
-		DB3A06272C4A1435009875B7 /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06262C4A1435009875B7 /* JournalEntryView.swift */; };
 		DB3A06292C4A145F009875B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06282C4A145F009875B7 /* ImagePicker.swift */; };
 		DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FCF82C49E801001063E1 /* WaveAppApp.swift */; };
 		DB73FCFB2C49E801001063E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FCFA2C49E801001063E1 /* ContentView.swift */; };
@@ -22,6 +21,22 @@
 		DB73FD272C49EC8C001063E1 /* WavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD262C49EC8C001063E1 /* WavesView.swift */; };
 		DB73FD292C49EE33001063E1 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD282C49EE33001063E1 /* ConnectView.swift */; };
 		DB73FD2B2C49EE57001063E1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FD2A2C49EE57001063E1 /* ProfileView.swift */; };
+		DB82DB4D2C536F6800F62E5F /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB4C2C536F6800F62E5F /* VideoPicker.swift */; };
+		DB82DB4F2C5432F100F62E5F /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB4E2C5432F100F62E5F /* JournalDetailView.swift */; };
+		DB82DB5F2C54396100F62E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB82DB502C54396000F62E5F /* Assets.xcassets */; };
+		DB82DB602C54396100F62E5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB82DB512C54396000F62E5F /* Preview Assets.xcassets */; };
+		DB82DB612C54396100F62E5F /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB532C54396000F62E5F /* ConnectView.swift */; };
+		DB82DB622C54396100F62E5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB542C54396000F62E5F /* ContentView.swift */; };
+		DB82DB632C54396100F62E5F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB552C54396000F62E5F /* ImagePicker.swift */; };
+		DB82DB642C54396100F62E5F /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB562C54396000F62E5F /* JournalDetailView.swift */; };
+		DB82DB652C54396100F62E5F /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB572C54396000F62E5F /* JournalEntry.swift */; };
+		DB82DB662C54396100F62E5F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB582C54396000F62E5F /* MainView.swift */; };
+		DB82DB672C54396100F62E5F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB592C54396000F62E5F /* ProfileView.swift */; };
+		DB82DB682C54396100F62E5F /* ProgressJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB5A2C54396000F62E5F /* ProgressJournalView.swift */; };
+		DB82DB692C54396100F62E5F /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB5B2C54396000F62E5F /* VideoPicker.swift */; };
+		DB82DB6A2C54396100F62E5F /* WaveAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB5C2C54396000F62E5F /* WaveAppApp.swift */; };
+		DB82DB6B2C54396100F62E5F /* WavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB5D2C54396000F62E5F /* WavesView.swift */; };
+		DB82DB6D2C545B7300F62E5F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB6C2C545B7300F62E5F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		DB3A06242C4A13FD009875B7 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
-		DB3A06262C4A1435009875B7 /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
 		DB3A06282C4A145F009875B7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DB73FCF52C49E801001063E1 /* WaveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB73FCF82C49E801001063E1 /* WaveAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAppApp.swift; sourceTree = "<group>"; };
@@ -60,6 +74,22 @@
 		DB73FD262C49EC8C001063E1 /* WavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavesView.swift; sourceTree = "<group>"; };
 		DB73FD282C49EE33001063E1 /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
 		DB73FD2A2C49EE57001063E1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DB82DB4C2C536F6800F62E5F /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		DB82DB4E2C5432F100F62E5F /* JournalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
+		DB82DB502C54396000F62E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB82DB512C54396000F62E5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB82DB532C54396000F62E5F /* ConnectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		DB82DB542C54396000F62E5F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB82DB552C54396000F62E5F /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DB82DB562C54396000F62E5F /* JournalDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
+		DB82DB572C54396000F62E5F /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		DB82DB582C54396000F62E5F /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DB82DB592C54396000F62E5F /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DB82DB5A2C54396000F62E5F /* ProgressJournalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressJournalView.swift; sourceTree = "<group>"; };
+		DB82DB5B2C54396000F62E5F /* VideoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		DB82DB5C2C54396000F62E5F /* WaveAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveAppApp.swift; sourceTree = "<group>"; };
+		DB82DB5D2C54396000F62E5F /* WavesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavesView.swift; sourceTree = "<group>"; };
+		DB82DB6C2C545B7300F62E5F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +144,16 @@
 				DB73FD222C49EBAB001063E1 /* MainView.swift */,
 				DB73FCFA2C49E801001063E1 /* ContentView.swift */,
 				DB73FD262C49EC8C001063E1 /* WavesView.swift */,
-				DB73FCFC2C49E803001063E1 /* Assets.xcassets */,
 				DB73FD282C49EE33001063E1 /* ConnectView.swift */,
 				DB73FD2A2C49EE57001063E1 /* ProfileView.swift */,
-				DB73FCFE2C49E803001063E1 /* Preview Content */,
 				DB73FD242C49EC1B001063E1 /* ProgressJournalView.swift */,
+				DB82DB5E2C54396000F62E5F /* WaveApp */,
 				DB3A06242C4A13FD009875B7 /* JournalEntry.swift */,
-				DB3A06262C4A1435009875B7 /* JournalEntryView.swift */,
 				DB3A06282C4A145F009875B7 /* ImagePicker.swift */,
+				DB82DB4C2C536F6800F62E5F /* VideoPicker.swift */,
+				DB82DB4E2C5432F100F62E5F /* JournalDetailView.swift */,
+				DB82DB6C2C545B7300F62E5F /* MapView.swift */,
+				DB73FCFE2C49E803001063E1 /* Preview Content */,
 			);
 			path = WaveApp;
 			sourceTree = "<group>";
@@ -129,6 +161,7 @@
 		DB73FCFE2C49E803001063E1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				DB73FCFC2C49E803001063E1 /* Assets.xcassets */,
 				DB73FCFF2C49E803001063E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -149,6 +182,34 @@
 				DB73FD152C49E803001063E1 /* WaveAppUITestsLaunchTests.swift */,
 			);
 			path = WaveAppUITests;
+			sourceTree = "<group>";
+		};
+		DB82DB522C54396000F62E5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB82DB502C54396000F62E5F /* Assets.xcassets */,
+				DB82DB512C54396000F62E5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB82DB5E2C54396000F62E5F /* WaveApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB82DB522C54396000F62E5F /* Preview Content */,
+				DB82DB532C54396000F62E5F /* ConnectView.swift */,
+				DB82DB542C54396000F62E5F /* ContentView.swift */,
+				DB82DB552C54396000F62E5F /* ImagePicker.swift */,
+				DB82DB562C54396000F62E5F /* JournalDetailView.swift */,
+				DB82DB572C54396000F62E5F /* JournalEntry.swift */,
+				DB82DB582C54396000F62E5F /* MainView.swift */,
+				DB82DB592C54396000F62E5F /* ProfileView.swift */,
+				DB82DB5A2C54396000F62E5F /* ProgressJournalView.swift */,
+				DB82DB5B2C54396000F62E5F /* VideoPicker.swift */,
+				DB82DB5C2C54396000F62E5F /* WaveAppApp.swift */,
+				DB82DB5D2C54396000F62E5F /* WavesView.swift */,
+			);
+			name = WaveApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +316,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB82DB602C54396100F62E5F /* Preview Assets.xcassets in Resources */,
 				DB73FD002C49E803001063E1 /* Preview Assets.xcassets in Resources */,
+				DB82DB5F2C54396100F62E5F /* Assets.xcassets in Resources */,
 				DB73FCFD2C49E803001063E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,13 +347,26 @@
 				DB73FCFB2C49E801001063E1 /* ContentView.swift in Sources */,
 				DB73FD272C49EC8C001063E1 /* WavesView.swift in Sources */,
 				DB3A06252C4A13FD009875B7 /* JournalEntry.swift in Sources */,
+				DB82DB632C54396100F62E5F /* ImagePicker.swift in Sources */,
 				DB73FD232C49EBAB001063E1 /* MainView.swift in Sources */,
+				DB82DB4F2C5432F100F62E5F /* JournalDetailView.swift in Sources */,
 				DB73FD292C49EE33001063E1 /* ConnectView.swift in Sources */,
+				DB82DB682C54396100F62E5F /* ProgressJournalView.swift in Sources */,
 				DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */,
-				DB3A06272C4A1435009875B7 /* JournalEntryView.swift in Sources */,
+				DB82DB6D2C545B7300F62E5F /* MapView.swift in Sources */,
 				DB3A06292C4A145F009875B7 /* ImagePicker.swift in Sources */,
 				DB73FD2B2C49EE57001063E1 /* ProfileView.swift in Sources */,
+				DB82DB672C54396100F62E5F /* ProfileView.swift in Sources */,
+				DB82DB652C54396100F62E5F /* JournalEntry.swift in Sources */,
+				DB82DB692C54396100F62E5F /* VideoPicker.swift in Sources */,
+				DB82DB6A2C54396100F62E5F /* WaveAppApp.swift in Sources */,
+				DB82DB662C54396100F62E5F /* MainView.swift in Sources */,
+				DB82DB612C54396100F62E5F /* ConnectView.swift in Sources */,
+				DB82DB642C54396100F62E5F /* JournalDetailView.swift in Sources */,
+				DB82DB622C54396100F62E5F /* ContentView.swift in Sources */,
+				DB82DB6B2C54396100F62E5F /* WavesView.swift in Sources */,
 				DB73FD252C49EC1B001063E1 /* ProgressJournalView.swift in Sources */,
+				DB82DB4D2C536F6800F62E5F /* VideoPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

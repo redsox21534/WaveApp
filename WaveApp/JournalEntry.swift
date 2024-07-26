@@ -1,9 +1,12 @@
 import Foundation
+import UIKit
 
 struct JournalEntry: Identifiable {
-    let id = UUID()
+    var id = UUID()
+    var title: String
+    var content: String
     var date: Date
-    var text: String
-    var media: URL? // URL to the photo or video
+    var image: UIImage?
+    var videoURL: URL?
 }
 

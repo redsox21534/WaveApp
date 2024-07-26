@@ -2,8 +2,11 @@ import SwiftUI
 import AVKit
 
 struct ProgressJournalView: View {
+    @Binding var journalEntries: [JournalEntry]
+    @Environment(\.presentationMode) var presentationMode
     @State var selectedImage: UIImage?
     @State var selectedVideoURL: URL?
+    @State var journalTitle: String = "New Journal Entry"
     @State var journalText: String = ""
     @State var showImagePicker: Bool = false
     @State var showVideoPicker: Bool = false
@@ -16,6 +19,13 @@ struct ProgressJournalView: View {
     var body: some View {
         NavigationView {
             VStack {
+                TextField("Enter title", text: $journalTitle)
+                    .font(.title)
+                    .multilineTextAlignment(.center)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding([.leading, .trailing])
+                    .padding(.top)
+                
                 if let image = selectedImage {
                     Image(uiImage: image)
                         .resizable()
@@ -80,7 +90,7 @@ struct ProgressJournalView: View {
                     Text("Journal Entry")
                         .font(.headline)
                         .foregroundColor(.gray)
-                        .padding(.bottom, 5)
+                        .padding(.top, 5)
                     
                     TextEditor(text: $journalText)
                         .padding()
@@ -96,7 +106,19 @@ struct ProgressJournalView: View {
                 Spacer()
             }
             .padding(.top)
-            .navigationBarTitle("New Journal Entry", displayMode: .inline)
+            .navigationBarTitle("", displayMode: .inline)
+            .navigationBarItems(trailing: Button("Save") {
+                let newEntry = JournalEntry(
+                    title: journalTitle,
+                    content: journalText,
+                    date: Date(),
+                    image: selectedImage,
+                    videoURL: selectedVideoURL
+                )
+                journalEntries.append(newEntry)
+                clearFields()
+                presentationMode.wrappedValue.dismiss()
+            })
             .sheet(isPresented: mediaType == .photo ? $showImagePicker : $showVideoPicker) {
                 if mediaType == .photo {
                     ImagePicker(selectedImage: $selectedImage, sourceType: .photoLibrary)
@@ -106,11 +128,18 @@ struct ProgressJournalView: View {
             }
         }
     }
+    
+    private func clearFields() {
+        journalTitle = "New Journal Entry"
+        journalText = ""
+        selectedImage = nil
+        selectedVideoURL = nil
+    }
 }
 
 struct ProgressJournalView_Previews: PreviewProvider {
     static var previews: some View {
-        ProgressJournalView()
+        ProgressJournalView(journalEntries: .constant([]))
     }
 }
 
