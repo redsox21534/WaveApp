@@ -2,10 +2,11 @@ import SwiftUI
 
 struct MainView: View {
     @State private var journalEntries: [JournalEntry] = []
-    
+    @State private var journalFolders: [JournalFolder] = []
+
     var body: some View {
         TabView {
-            ProgressJournalView(journalEntries: $journalEntries)
+            ProgressJournalView(journalEntries: $journalEntries, journalFolders: $journalFolders)
                 .tabItem {
                     Image(systemName: "book")
                     Text("Journal")
@@ -23,7 +24,7 @@ struct MainView: View {
                     Text("Connect")
                 }
 
-            ProfileView(journalEntries: $journalEntries)
+            ProfileView(journalEntries: $journalEntries, journalFolders: $journalFolders)
                 .tabItem {
                     Image(systemName: "person.crop.circle")
                     Text("Profile")
@@ -38,9 +39,6 @@ struct MainView_Previews: PreviewProvider {
     }
 }
 
-
-//
-//
 //import SwiftUI
 //
 //struct MainView: View {
@@ -80,4 +78,5 @@ struct MainView_Previews: PreviewProvider {
 //        MainView()
 //    }
 //}
+//
 //

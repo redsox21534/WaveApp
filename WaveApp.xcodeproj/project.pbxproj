@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0EAEE52C5AD5FA0083A578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EAEE42C5AD5F90083A578 /* ContentView.swift */; };
+		DB0EAEEC2C5B5D4E0083A578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0EAEEB2C5B5D4E0083A578 /* Assets.xcassets */; };
 		DB3A06252C4A13FD009875B7 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06242C4A13FD009875B7 /* JournalEntry.swift */; };
 		DB3A06292C4A145F009875B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A06282C4A145F009875B7 /* ImagePicker.swift */; };
 		DB73FCF92C49E801001063E1 /* WaveAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FCF82C49E801001063E1 /* WaveAppApp.swift */; };
@@ -26,7 +28,6 @@
 		DB82DB5F2C54396100F62E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB82DB502C54396000F62E5F /* Assets.xcassets */; };
 		DB82DB602C54396100F62E5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB82DB512C54396000F62E5F /* Preview Assets.xcassets */; };
 		DB82DB612C54396100F62E5F /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB532C54396000F62E5F /* ConnectView.swift */; };
-		DB82DB622C54396100F62E5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB542C54396000F62E5F /* ContentView.swift */; };
 		DB82DB632C54396100F62E5F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB552C54396000F62E5F /* ImagePicker.swift */; };
 		DB82DB642C54396100F62E5F /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB562C54396000F62E5F /* JournalDetailView.swift */; };
 		DB82DB652C54396100F62E5F /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82DB572C54396000F62E5F /* JournalEntry.swift */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB0EAEE42C5AD5F90083A578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB0EAEEB2C5B5D4E0083A578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB3A06242C4A13FD009875B7 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		DB3A06282C4A145F009875B7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DB73FCF52C49E801001063E1 /* WaveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +82,6 @@
 		DB82DB502C54396000F62E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB82DB512C54396000F62E5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB82DB532C54396000F62E5F /* ConnectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
-		DB82DB542C54396000F62E5F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB82DB552C54396000F62E5F /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DB82DB562C54396000F62E5F /* JournalDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
 		DB82DB572C54396000F62E5F /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
@@ -147,6 +149,8 @@
 				DB73FD282C49EE33001063E1 /* ConnectView.swift */,
 				DB73FD2A2C49EE57001063E1 /* ProfileView.swift */,
 				DB73FD242C49EC1B001063E1 /* ProgressJournalView.swift */,
+				DB82DB552C54396000F62E5F /* ImagePicker.swift */,
+				DB82DB532C54396000F62E5F /* ConnectView.swift */,
 				DB82DB5E2C54396000F62E5F /* WaveApp */,
 				DB3A06242C4A13FD009875B7 /* JournalEntry.swift */,
 				DB3A06282C4A145F009875B7 /* ImagePicker.swift */,
@@ -154,6 +158,7 @@
 				DB82DB4E2C5432F100F62E5F /* JournalDetailView.swift */,
 				DB82DB6C2C545B7300F62E5F /* MapView.swift */,
 				DB73FCFE2C49E803001063E1 /* Preview Content */,
+				DB0EAEEB2C5B5D4E0083A578 /* Assets.xcassets */,
 			);
 			path = WaveApp;
 			sourceTree = "<group>";
@@ -197,15 +202,13 @@
 			isa = PBXGroup;
 			children = (
 				DB82DB522C54396000F62E5F /* Preview Content */,
-				DB82DB532C54396000F62E5F /* ConnectView.swift */,
-				DB82DB542C54396000F62E5F /* ContentView.swift */,
-				DB82DB552C54396000F62E5F /* ImagePicker.swift */,
 				DB82DB562C54396000F62E5F /* JournalDetailView.swift */,
 				DB82DB572C54396000F62E5F /* JournalEntry.swift */,
 				DB82DB582C54396000F62E5F /* MainView.swift */,
 				DB82DB592C54396000F62E5F /* ProfileView.swift */,
 				DB82DB5A2C54396000F62E5F /* ProgressJournalView.swift */,
 				DB82DB5B2C54396000F62E5F /* VideoPicker.swift */,
+				DB0EAEE42C5AD5F90083A578 /* ContentView.swift */,
 				DB82DB5C2C54396000F62E5F /* WaveAppApp.swift */,
 				DB82DB5D2C54396000F62E5F /* WavesView.swift */,
 			);
@@ -320,6 +323,7 @@
 				DB73FD002C49E803001063E1 /* Preview Assets.xcassets in Resources */,
 				DB82DB5F2C54396100F62E5F /* Assets.xcassets in Resources */,
 				DB73FCFD2C49E803001063E1 /* Assets.xcassets in Resources */,
+				DB0EAEEC2C5B5D4E0083A578 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,9 +365,9 @@
 				DB82DB692C54396100F62E5F /* VideoPicker.swift in Sources */,
 				DB82DB6A2C54396100F62E5F /* WaveAppApp.swift in Sources */,
 				DB82DB662C54396100F62E5F /* MainView.swift in Sources */,
+				DB0EAEE52C5AD5FA0083A578 /* ContentView.swift in Sources */,
 				DB82DB612C54396100F62E5F /* ConnectView.swift in Sources */,
 				DB82DB642C54396100F62E5F /* JournalDetailView.swift in Sources */,
-				DB82DB622C54396100F62E5F /* ContentView.swift in Sources */,
 				DB82DB6B2C54396100F62E5F /* WavesView.swift in Sources */,
 				DB73FD252C49EC1B001063E1 /* ProgressJournalView.swift in Sources */,
 				DB82DB4D2C536F6800F62E5F /* VideoPicker.swift in Sources */,
